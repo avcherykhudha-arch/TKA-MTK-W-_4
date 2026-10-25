@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import "katex/dist/katex.min.css";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.math-bg-pattern {
+  background-color: #F7F8FA;
+  background-image: radial-gradient(rgba(200, 16, 46, 0.04) 1px, transparent 1px), radial-gradient(rgba(34, 37, 43, 0.03) 1px, transparent 1px);
+  background-size: 28px 28px;
+  background-position: 0 0, 14px 14px;
+}
+
+.katex {
+  font-size: 1.08em;
+}
+
+/* Custom scrollbars for clean educational dashboard */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f2f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd2dc;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9aa5b5;
+}

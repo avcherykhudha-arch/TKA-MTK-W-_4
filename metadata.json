@@ -1,0 +1,6 @@
+{
+  "name": "Mister Jo — TKA Matematika Masterclass 2026",
+  "description": "30 Tantangan Penalaran TKA Matematika Wajib SMA/MA Kelas XII 2026 bersama Mister Jo dengan pembahasan ganda dan penskoran kemahiran 200–800.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
